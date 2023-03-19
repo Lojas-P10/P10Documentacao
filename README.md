@@ -31,12 +31,11 @@ Links do projeto:
 
 # Situação Problema
 
-Sr. Eduardo, dono da loja de departamento P10(desde 2010), notou que com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o depósito atualizadas. 
+O Sr. Eduardo, dono da loja de departamento P10(desde 2010), notou que com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o depósito atualizadas.
 
-Com o aumento exponencial de usuários que a internet ganhou, Sr. Eduardo notou que estava perdendo vendas por não estar de forma eficiente online onde seus clientes conseguissem ter acesso a seus produtos de forma rápida.
-Os funcionários estavam demonstrando dificuldade em acompanhar a entrada e saída de mercadoria do estoque, assim deixando as informações relacionadas a quantidade de mercadorias desatualizada. Isso causou  a indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda.
+Com este aumento exponencial de compradores, o Sr. Eduardo reconheceu a necessidade de ter um sistema de controle de caixa e estoque. Os funcionários relataram dificuldades em acompanhar a entrada e saída de mercadorias do estoque, assim deixando as informações relacionadas aos produtos e vendas desatualizadas. Assim gerando gastos desnecessários e a perda de vendas, por causa da indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda.
 
-O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas  com a quantidade de produtos no estoque, devolvendo para o funcionário um relatorio mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
+O software auxiliaria a manter o estoque atualizado, evitando que haja futuros problemas relacionados com a quantidade de produtos no estoque, devolvendo para o funcionário um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
 
 # Descrição da proposta
 
