@@ -39,14 +39,14 @@ O software auxiliaria a manter o estoque atualizado, evitando que haja futuros p
 
 # Descrição da proposta
 
-O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário gestão de venda da  loja. 
-O sistema terá 3 níveis de usuário: Administrador, Estoque, Caixa.
+O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
+O sistema terá 3 níveis de usuário: Estoque, Caixa, Gerente.
 
-**Usuário de Estoque** terá acesso à parte de registro e monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias (CRUD).
+- **Usuário de Estoque** terá acesso à parte de monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias (CRUD).
 
-**Usuário de Caixa** 
+- **Usuário de Caixa** terá acesso ao relatório de compras, onde mostrará as os dados e recibos das compras e terá acesso ao estoque para monitoramento.
 
-**Usuário de Administrador** terá acesso a relatórios de oferta e demanda dos produtos, quais que estão tendo maior demanda, quais precisam ser encomendados, relátorio de faturamento e valor individual de cada produto. 
+- **Usuário de Gerente** terá acesso a relatórios de oferta e demanda dos produtos, quais que estão tendo maior demanda, quais precisam ser encomendados, relatório de faturamento e valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
 
 
 
