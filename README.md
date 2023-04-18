@@ -6,10 +6,11 @@ Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https
 
 Links do projeto:
 
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   [Backend](github.com/marcoandre/pi-backend)
--   [Frontend](github.com/marcoandre/pi-frontend)
-
+-   [Documentação (esse documento)](https://github.com/MarceloHarbs/P10-Documentcao)
+-   [BackEnd](github.com/marcoandre/pi-backend)
+-   [FrontEnd](https://github.com/horodeski/P10FrontEnd)
+-   [Mobile](https://github.com/horodeski/P10Mobile)
+-   
 # Como usar esse modelo para o Projeto Integrador
 
 1. Faça um fork desse repositório para a sua conta do GitHub.
