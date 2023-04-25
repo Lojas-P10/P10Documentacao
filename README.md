@@ -1,26 +1,22 @@
-# Projeto Integrador - Modelo
+# Projeto Integrador - P10
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
+Equipe:
+- [Marcelo Henrique Harbs](github.com/MarceloHarbs)
+- [Geovana Shopia Horodeski](github.com/horodeski)
+- [Gregory Valmir Ribeiro](github.com/eugreg)
+
 Links do projeto:
 
--   [Documentação (esse documento)](https://github.com/MarceloHarbs/P10-Documentcao)
--   [BackEnd](github.com/marcoandre/pi-backend)
--   [FrontEnd](https://github.com/horodeski/P10FrontEnd)
--   [Mobile](https://github.com/horodeski/P10Mobile)
--   
-# Como usar esse modelo para o Projeto Integrador
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
+-  [Documentação](https://github.com/MarceloHarbs/P10-Documentcao)
+-  [FrontEnd](https://github.com/horodeski/P10FrontEnd)
+-  [BackEnd](github.com/marcoandre/pi-backend)
+-  [Mobile](https://github.com/horodeski/P10Mobile)   
 
 # Desenvolvimento
-
 -   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
 -   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
