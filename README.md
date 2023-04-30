@@ -6,7 +6,7 @@ Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https
 
 Equipe:
 - [Marcelo Henrique Harbs](github.com/MarceloHarbs)
-- [Geovana Shopia Horodeski](github.com/horodeski)
+- [Geovana Sophia Horodeski](github.com/horodeski)
 - [Gregory Valmir Ribeiro](github.com/eugreg)
 
 Links do projeto:
