@@ -107,15 +107,15 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque, Caixa, Gerente.
   - **Usuários:** Usuário tipo Cliente.
 
 **Saídas:**
-- **R.F. 02 - Reltaório de vendas:** Tem como finalidade devolver relatórios de vendas individuais de produto.
+- **R.F. 08 - Reltaório de vendas:** Tem como finalidade devolver relatórios de vendas individuais de produto.
   - **Dados necessários:** Relatório em fromato de tabela.
   - **Usuários:** Usuário tipo Gerente.
   
-- **R.F. 02 - Relatório quantidade de produto:** Tem como finalidade devolver uma relatário onde informará quais produtos estão acabando no estoque.
+- **R.F. 09 - Relatório quantidade de produto:** Tem como finalidade devolver uma relatário onde informará quais produtos estão acabando no estoque.
   - **Dados necessários:** Relatório em fromato de tabela.
   - **Usuários:** O sistema terá uma interface onde poderá colocar as informações referentes a chagada de produtos.
 
-  - **R.F. 02 - Pesquisa de mercadoria:** O sistema deve permitir que o usuário filter/pesquise entre as mercadorias.
+- **R.F. 10 - Pesquisa de mercadoria:** O sistema deve permitir que o usuário filter/pesquise entre as mercadorias.
   - **Dados necessários:** Nome da mercadoria ou categoria.
   - **Usuários:** todos os níveis de usuário.
 
