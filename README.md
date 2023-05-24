@@ -1,7 +1,5 @@
 # Projeto Integrador - P10 
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
 Equipe:
@@ -16,7 +14,7 @@ Links do projeto:
 -  [BackEnd](github.com/marcoandre/pi-backend)
 -  [Mobile](https://github.com/horodeski/P10Mobile)   
 
-# Situação Problema
+### Situação Problema
 
 O Sr. Eduardo, dono da loja de departamento P10 (desde 2010) notou que, com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o estoque atualizadas.
 
@@ -24,23 +22,25 @@ Com esse aumento exponencial de compradores, o Sr. Eduardo reconheceu a necessid
 
 Em segundo plano, o Sr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar compras e consultas de preço. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
 
-# Descrição da proposta
+### Descrição da proposta
 
 O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
 
-O sistema terá 4 níveis de usuário: Cliente, Estoque, Caixa, Gerente.
+O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
 
-- **Cliente** Terá acesso à parte da loja do sistema, onde poderá efetuar login/cadastro e compras de mercadoria. 
+- **Cliente** - Terá acesso à parte da loja do sistema, onde poderá efetuar cadastro e login, compras de mercadoria. 
 
-- **Estoque** terá acesso à parte de monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias.
+- **Estoque** - Terá acesso à parte de monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias.
 
-- **Caixa** terá acesso ao relatório de compras, onde mostrará os dados e recibos das compras e terá acesso ao estoque para monitoramento.
+- **Gerente** - Terá acesso à relatórios, onde terão informações sobre vendas, lucros e receitas diárias, produtos mais vendidos, categorias de produtos, clientes frequentes, metas de vendas, promoções e descontos.
+- 
+ <!--
+- **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
+-->
 
-- **Gerente** terá acesso à relatórios de oferta e demanda dos produtos, quais que estão tendo maior demanda, quais precisam ser encomendados, relatório de faturamento e valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
+### Regras de negócio
 
-# 4. Regras de negócio
-
-- **RN001 – Controle de caixa:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
+- **RN001 - Controle de caixa:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
 
 - **RN002 - Gerenciamento de estoque:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de entrada e saída de produtos, atualização de preços, descrições e informações adicionais relacionadas aos produtos.
 
@@ -66,7 +66,7 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Caixa, Gerente.
 
 - **RN013 - Categorias:** O sistema deve categoprizar as mercadorias.
 
-# 5. Requisitos funcionais
+### Requisitos funcionais
 
 **Entradas:**
 - **R.F. 01 - Cadastro de usuários:** O sistema terá uma interface onde ocorrerá o cadastro de novos clientes.
@@ -110,7 +110,7 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Caixa, Gerente.
   - **Dados necessários:** Nome da mercadoria ou categoria.
   - **Usuários:** todos os níveis de usuário.
 
-# 6. Requisitos não funcionais
+### Requisitos não funcionais
 
 - **R.N.F. 01 - Atuação:** O sistema deve ser capaz de lidar com o número necessário de usuários sem queda brusca de desempenho.
 
