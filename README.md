@@ -1,18 +1,57 @@
-# Projeto Integrador - P10 
+<div align="center">
+  
+  [![Pull request](https://img.shields.io/bitbucket/pr-raw/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/pulls)
+  [![GitHub commits](https://img.shields.io/github/last-commit/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/commit/)
+  [![Stars](https://img.shields.io/github/stars/horodeski/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/TemplateDocumentcao/stargazers)
+  [![Fork](https://img.shields.io/github/forks/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/network/members)
+  [![Watchers](https://img.shields.io/github/watchers/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/watchers)
+  
+</div>
 
-Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
+<a name="readme-top"></a>
+<div align="center">
+  <a href="https://github.com/horodeski/HumildeTentativaDeFazerUmPortfolio">
+    <!-- logo se tiver 
+    <img src="src/assets/img/logo.png" alt="Logo" width="200" height="200">
+-->
+  </a>
 
-Equipe:
-- [Marcelo Henrique Harbs](github.com/MarceloHarbs)
-- [Geovana Sophia Horodeski](github.com/horodeski)
-- [Gregory Valmir Ribeiro](github.com/eugreg)
+  <h2 align="center">LOJAS P10!</h2>
 
-Links do projeto:
+  <p align="center">
+    <i>Viva ao Máximo por 10: Desfrute de Grandes Compras com Pouco Dinheiro!</i>
+    <br />
+    <a href="https://github.com/MarceloHarbs/P10-Documentcao"><strong>Documentação »</strong></a>
+    <a href="https://github.com/horodeski/P10FrontEnd"><strong>FrontEnd »</strong></a>
+    <a href="https://github.com/horodeski/P10Mobile"><strong>Mobile »</strong></a>
+    <a href="github.com/marcoandre/pi-backend"><strong>BackEnd »</strong></a>
+  </p>
+</div>
 
--  [Documentação](https://github.com/MarceloHarbs/P10-Documentcao)
--  [FrontEnd](https://github.com/horodeski/P10FrontEnd)
--  [BackEnd](github.com/marcoandre/pi-backend)
--  [Mobile](https://github.com/horodeski/P10Mobile)   
+<details>
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a>Sobre o projeto</a>
+      <ul>
+        <li><a href="#situação-problema">Situação problema</a></li>
+        <li><a href="#proposta">Proposta</a></li>
+        <li><a href="#regras-de-negócio">Regras de negócio</a></li>
+        <li><a href="#requisitos-funcionais">Requisitos funcionais</a></li>
+        <li><a href="#requisitos-não-funcionais">Requisitos não funcionais</a></li>
+      </ul>
+    </li>
+    <li>
+     <a href="#contato">Contato</a>
+     <ul>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#professores">Professores</a></li>
+     </ul>
+   </li>
+  </ol>
+</details>
+
+<hr />
 
 ### Situação Problema
 
@@ -22,7 +61,7 @@ Com esse aumento exponencial de compradores, o Sr. Eduardo reconheceu a necessid
 
 Em segundo plano, o Sr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar compras e consultas de preço. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
 
-### Descrição da proposta
+### Proposta
 
 O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
 
@@ -33,7 +72,7 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
 - **Estoque** - Terá acesso à parte de monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias.
 
 - **Gerente** - Terá acesso à relatórios, onde terão informações sobre vendas, lucros e receitas diárias, produtos mais vendidos, categorias de produtos, clientes frequentes, metas de vendas, promoções e descontos.
-- 
+ 
  <!--
 - **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
 -->
@@ -134,5 +173,31 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
 
 - **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
 
+## Contato
+#### Equipe
+
+* [Geovana Sophia Horodeski](https://github.com/horodeski) - geovana.horodeski06@gmail.com 
+ 
+* [Gregory Ribeiro](https://github.com/eugreg) - daiaegregory@gmail.com
+  
+* [Marcelo Harbs](https://github.com/MarceloHarbs) - mharbs614@gmail.com 
+
+</ul>
+
+#### Professores
+
+
+* [Alann Perini](https://github.com/AlannKPerini) - alann.perini@ifc.edu.br
+  
+* [Marco André Mendes Lopes](https://github.com/marrcandre) - marco.mendes@ifc.edu.br
+
+
+<div align="center">
+  
+  [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+  [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+  
+  
+</div>
 
 
