@@ -38,7 +38,7 @@
         <li><a href="#proposta">Proposta</a></li>
         <li><a href="#regras-de-negócio">Regras de negócio</a></li>
         <li><a href="#requisitos-funcionais">Requisitos funcionais</a></li>
-        <li><a href="requisitos-não-funcionais">Requisitos não funcionais</a></li>
+        <li><a href="#requisitos-não-funcionais">Requisitos não funcionais</a></li>
       </ul>
     </li>
     <li>
