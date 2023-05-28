@@ -72,7 +72,7 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
 - **Estoque** - Terá acesso à parte de monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias.
 
 - **Gerente** - Terá acesso à relatórios, onde terão informações sobre vendas, lucros e receitas diárias, produtos mais vendidos, categorias de produtos, clientes frequentes, metas de vendas, promoções e descontos.
-- 
+ 
  <!--
 - **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
 -->
