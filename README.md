@@ -44,8 +44,8 @@
     <li>
      <a href="#contato">Contato</a>
      <ul>
-        <li><a href="#proposta">Equipe</a></li>
-        <li><a href="#proposta">Professores</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#professores">Professores</a></li>
      </ul>
    </li>
   </ol>
