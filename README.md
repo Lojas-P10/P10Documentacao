@@ -1,10 +1,10 @@
 <div align="center">
   
-  [![Pull request](https://img.shields.io/bitbucket/pr-raw/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/pulls)
-  [![GitHub commits](https://img.shields.io/github/last-commit/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/commit/)
-  [![Stars](https://img.shields.io/github/stars/horodeski/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/TemplateDocumentcao/stargazers)
-  [![Fork](https://img.shields.io/github/forks/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/network/members)
-  [![Watchers](https://img.shields.io/github/watchers/MarceloHarbs/P10-Documentcao?style=social)](https://github.com/MarceloHarbs/P10-Documentcao/watchers)
+  [![Pull request](https://img.shields.io/bitbucket/pr-raw/MarceloHarbs/P10Documentacao?style=social)](https://github.com/MarceloHarbs/P10Documentacao/pulls)
+  [![GitHub commits](https://img.shields.io/github/last-commit/MarceloHarbs/P10Documentacao?style=social)](https://github.com/MarceloHarbs/P10Documentacao/commit/)
+  [![Stars](https://img.shields.io/github/stars/MarceloHarbs/P10Documentacao?style=social)](https://github.com/MarceloHarbs/P10Documentacao/stargazers)
+  [![Fork](https://img.shields.io/github/forks/MarceloHarbs/P10Documentacao?style=social)](https://github.com/MarceloHarbs/P10Documentacao/network/members)
+  [![Watchers](https://img.shields.io/github/watchers/MarceloHarbs/P10Documentacao?style=social)](https://github.com/MarceloHarbs/P10Documentacao/watchers)
   
 </div>
 
