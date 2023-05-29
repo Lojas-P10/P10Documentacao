@@ -19,8 +19,7 @@
   <h2 align="center">LOJAS P10!</h2>
 
   <p align="center">
-    <i>Viva ao Máximo por 10: Desfrute de Grandes Compras com Pouco Dinheiro!</i>
-    <br />
+    <p>Bem-vindo às lojas P10, o paraíso das compras econômicas! Nossa loja é o destino perfeito para quem busca qualidade, variedade e preços incríveis. Aqui, a mágica do número 10 acontece, pois tudo o que você encontra em nossas prateleiras tem o valor fixo de apenas R$10.00.</p>
     <a href="https://github.com/MarceloHarbs/P10-Documentcao"><strong>Documentação »</strong></a>
     <a href="https://github.com/horodeski/P10FrontEnd"><strong>FrontEnd »</strong></a>
     <a href="https://github.com/horodeski/P10Mobile"><strong>Mobile »</strong></a>
