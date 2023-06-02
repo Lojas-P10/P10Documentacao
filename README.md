@@ -54,9 +54,9 @@
 
 ### Situação Problema
 
-O Sr. Eduardo, dono da loja de departamento P10 (desde 2010) notou que, com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o estoque atualizadas.
+O Dr. Eduardo, dono da loja de departamento P10 (desde 2010) notou que, com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o estoque atualizadas.
 
-Com esse aumento exponencial de compradores, o Sr. Eduardo reconheceu a necessidade de ter um sistema de controle de caixa e estoque. Os funcionários relataram dificuldades em acompanhar a entrada e saída de mercadorias do estoque, assim deixando as informações relacionadas aos produtos e vendas desatualizadas. Isso gerou gastos desnecessários e a perda de vendas, por causa da indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda. 
+Com esse aumento exponencial de compradores, o Dr. Eduardo reconheceu a necessidade de ter um sistema de controle de caixa e estoque. Os funcionários relataram dificuldades em acompanhar a entrada e saída de mercadorias do estoque, assim deixando as informações relacionadas aos produtos e vendas desatualizadas. Isso gerou gastos desnecessários e a perda de vendas, por causa da indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda. 
 
 Em segundo plano, o Sr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar compras e consultas de preço. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
 
@@ -64,7 +64,7 @@ Em segundo plano, o Sr. Eduardo quer aumentar a visibilidade e acesso à loja, c
 
 O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
 
-O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
+O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 - **Cliente** - Terá acesso à parte da loja do sistema, onde poderá efetuar cadastro e login, compras de mercadoria. 
 
@@ -82,11 +82,11 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
 
 - **RN002 - Gerenciamento de estoque:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de entrada e saída de produtos, atualização de preços, descrições e informações adicionais relacionadas aos produtos.
 
-- **RN003 - Relatórios:** O sistema deve permitir a geração de relatórios para os funcionários, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
+- **RN003 - Relatórios:** O sistema deve gerar relatórios para os funcionários, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
 
-- **RN004 - Atualização em tempo real:** O sistema deve atualizar em tempo real as informações do estoque, permitindo aos funcionários visualizar a disponibilidade de produtos a qualquer momento.
+- **RN004 - Atualização em tempo real:** O sistema deve atualizar em tempo real as informações do estoque, permitindo aos três níveis usuários visualizar a disponibilidade de produtos.
 
-- **RN005 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os funcionários, garantindo que apenas pessoas autorizadas possam realizar alterações no estoque e no caixa.
+<!-- - **RN005 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os funcionários, garantindo que apenas pessoas autorizadas possam realizar alterações no estoque e no caixa. -->
 
 - **RN006 - Facilidade de uso:** O sistema deve ser intuitivo e de fácil utilização pelos funcionários da loja, minimizando a necessidade de treinamento adicional.
 
@@ -94,7 +94,7 @@ O sistema terá 4 níveis de usuário: Cliente, Estoque, Gerente.
 
 - **RN008 - Gerar backup:** O sistema deve fazer backup regularmente para garantir a segurança dos dados do sistema.
 
-- **RN009 - Fornecer informações claras sobre o produto:** O sistema deve fornecer as infromações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor.
+<!-- - **RN009 - Fornecer informações claras sobre o produto:** O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. -->
 
 - **RN010 - Política de trocas:** O sistema deve deixar claro a política de troca da loja, "A troca somente será aceita com recibo fiscal no prazo de 20 dias".
 
