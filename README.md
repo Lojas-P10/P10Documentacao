@@ -19,7 +19,7 @@
   <h2 align="center">LOJAS P10!</h2>
 
   <p align="center">
-    <p>Bem-vindo às lojas P10, o paraíso das compras econômicas! Nossa loja é o destino perfeito para quem busca qualidade, variedade e preços incríveis. Aqui, a mágica do número 10 acontece, pois tudo o que você encontra em nossas prateleiras tem o valor fixo de apenas R$10.00.</p>
+    <p>Projeto desenvolvido para a matéria de Projeto Integrador em 2023</p>
     <a href="https://github.com/MarceloHarbs/P10-Documentcao"><strong>Documentação »</strong></a>
     <a href="https://github.com/horodeski/P10FrontEnd"><strong>FrontEnd »</strong></a>
     <a href="https://github.com/horodeski/P10Mobile"><strong>Mobile »</strong></a>
@@ -31,7 +31,7 @@
   <summary>Sumário</summary>
   <ol>
     <li>
-      <a>Sobre o projeto</a>
+      <a href="#lojas-p10">Sobre o projeto</a>
       <ul>
         <li><a href="#situação-problema">Situação problema</a></li>
         <li><a href="#proposta">Proposta</a></li>
@@ -52,13 +52,17 @@
 
 <hr />
 
+### Lojas P10
+
+Fundada pelo Dr. Eduardo da Silva, as lojas P10 oferecem uma ampla variedade de produtos, desde itens de decoração e acessórios até utensílios domésticos e presentes criativos. Com preços acessíveis e produtos de qualidade, as lojas P10 rapidamente conquistaram o coração dos clientes que buscavam pechinchas sem abrir mão da qualidade. Um destino popular para quem deseja encontrar ótimas ofertas e fazer compras econômicas.
+
 ### Situação Problema
 
-O Dr. Eduardo, dono da loja de departamento P10 (desde 2010) notou que, com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o estoque atualizadas.
+O Dr. Eduardo notou que, com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o estoque atualizadas.
 
 Com esse aumento exponencial de compradores, o Dr. Eduardo reconheceu a necessidade de ter um sistema de controle de caixa e estoque. Os funcionários relataram dificuldades em acompanhar a entrada e saída de mercadorias do estoque, assim deixando as informações relacionadas aos produtos e vendas desatualizadas. Isso gerou gastos desnecessários e a perda de vendas, por causa da indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda. 
 
-Em segundo plano, o Sr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar compras e consultas de preço. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
+Em segundo plano, o Dr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar compras e consultas de preço. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
 
 ### Proposta
 
