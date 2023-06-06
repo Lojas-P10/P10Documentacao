@@ -70,11 +70,11 @@ O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento 
 
 O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
-- **Cliente** - Terá acesso à parte da loja do sistema, onde poderá efetuar cadastro e login, compras de mercadoria. 
+- **Cliente** - Terá acesso ?interface web? da loja, onde poderá navegar pelos produtos, visualizar detalhes, adicionar itens ao carrinho de compras e finalizar a compra.
 
-- **Estoque** - Terá acesso à parte de monitoramento de mercadoria, onde ele poderá registrar, ler, atualizar e deletar mercadorias.
+- **Estoque** - Terá acesso ao monitoramento do estoque, onde poderá visualizar e registrar mercadorias, inserindo informações como nome, descrição, preço, quantidade disponível, entre outros dados relevantes. 
 
-- **Gerente** - Terá acesso à relatórios, onde terão informações sobre vendas, lucros e receitas diárias, produtos mais vendidos, categorias de produtos, clientes frequentes, metas de vendas, promoções e descontos.
+- **Gerente** - Poderá visualizar relatórios sobre vendas, lucros e receitas diárias, permitindo uma análise do desempenho do negócio ao longo do tempo.
  
  <!--
 - **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
