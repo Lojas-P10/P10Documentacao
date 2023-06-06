@@ -52,111 +52,115 @@
 
 <hr />
 
-### Lojas P10
+# Projeto Integrador - Lojas P10
 
-Fundada pelo Dr. Eduardo da Silva, as lojas P10 oferecem uma ampla variedade de produtos, desde itens de decoração e acessórios até utensílios domésticos e presentes criativos. Com preços acessíveis e produtos de qualidade, as lojas P10 rapidamente conquistaram o coração dos clientes que buscavam pechinchas sem abrir mão da qualidade. Um destino popular para quem deseja encontrar ótimas ofertas e fazer compras econômicas.
+ <p align="justify">Fundada pelo Dr. Eduardo da Silva, as lojas P10 oferecem uma ampla variedade de produtos, desde itens de decoração e acessórios até utensílios domésticos e presentes criativos. Com preços acessíveis e produtos de qualidade, as lojas P10 rapidamente conquistaram o coração dos clientes que buscavam pechinchas, sem abrir mão da qualidade. Um destino popular para quem deseja encontrar ótimas ofertas e fazer compras econômicas.
 
-### Situação Problema
+# Situação Problema
 
 O Dr. Eduardo notou que, com o aumento nas vendas e da popularidade da loja, os funcionários estavam tendo dificuldade para manter as informações sobre o estoque atualizadas.
 
-Com esse aumento exponencial de compradores, o Dr. Eduardo reconheceu a necessidade de ter um sistema de controle de caixa e estoque. Os funcionários relataram dificuldades em acompanhar a entrada e saída de mercadorias do estoque, assim deixando as informações relacionadas aos produtos e vendas desatualizadas. Isso gerou gastos desnecessários e a perda de vendas, por causa da indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda. 
+Com esse aumento exponencial de compradores, o Dr. Eduardo reconheceu a necessidade de ter um sistema de controle de caixa e estoque. Os funcionários relataram dificuldades em acompanhar a entrada e saída de produtos do estoque, assim deixando as informações relacionadas aos produtos e vendas desatualizadas. Isso gerou gastos desnecessários e a perda de vendas, por causa da indisponibilidade de produtos, excesso de produtos com baixa demanda e ausência de produtos com alta demanda. 
 
-Em segundo plano, o Dr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar compras e consultas de preço. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda, quantidade de produtos em tempo real para todos os funcionários que possuem acesso ao sistema.
+Em segundo plano, o Dr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar consultas de preço e compras. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda e quantidade de produtos em estoque em tempo real para todos os funcionários que possuem acesso ao sistema.
 
-### Proposta
+# Proposta
 
+TODO: MELHORAR ESSA PARTE, FALANDO EM MELHORIAS E NÃO EM CORREÇÃO DE ERROS.
 O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
+
+TODO: MELHORAR A PROPOSTA, DESCREVENDO MELHOR AS FUNCIONALIDADES, PRINCIPALMENTE O PROCESSO DE VENDA.
 
 O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
-- **Cliente** - Terá acesso ?interface web? da loja, onde poderá navegar pelos produtos, visualizar detalhes, adicionar itens ao carrinho de compras e finalizar a compra.
+- **Cliente** - Terá acesso ao sistema, onde poderá navegar pelos produtos, visualizar detalhes, adicionar itens ao carrinho de compras e finalizar a compra.
 
-- **Estoque** - Terá acesso ao monitoramento do estoque, onde poderá visualizar e registrar mercadorias, inserindo informações como nome, descrição, preço, quantidade disponível, entre outros dados relevantes. 
+- **Estoque** - Terá acesso ao monitoramento do estoque, onde poderá visualizar e registrar produtos.
 
 - **Gerente** - Poderá visualizar relatórios sobre vendas, lucros e receitas diárias, permitindo uma análise do desempenho do negócio ao longo do tempo.
  
  <!--
 - **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
 -->
+- **RN001 - Controle de vendas:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
 
-### Regras de negócio
-
-- **RN001 - Controle de caixa:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
-
-- **RN002 - Gerenciamento de estoque:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de entrada e saída de produtos, atualização de preços, descrições e informações adicionais relacionadas aos produtos.
-
-- **RN003 - Relatórios:** O sistema deve gerar relatórios para os funcionários, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
-
-- **RN004 - Atualização em tempo real:** O sistema deve atualizar em tempo real as informações do estoque, permitindo aos três níveis usuários visualizar a disponibilidade de produtos.
-
-<!-- - **RN005 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os funcionários, garantindo que apenas pessoas autorizadas possam realizar alterações no estoque e no caixa. -->
-
-- **RN006 - Facilidade de uso:** O sistema deve ser intuitivo e de fácil utilização pelos funcionários da loja, minimizando a necessidade de treinamento adicional.
-
-- **RN007 - Suporte técnico:** O sistema deve contar com suporte técnico para solucionar eventuais problemas que possam ocorrer no uso do software.
-
-- **RN008 - Gerar backup:** O sistema deve fazer backup regularmente para garantir a segurança dos dados do sistema.
+# Regras de negócio
 
 <!-- - **RN009 - Fornecer informações claras sobre o produto:** O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. -->
 
-- **RN010 - Política de trocas:** O sistema deve deixar claro a política de troca da loja, "A troca somente será aceita com recibo fiscal no prazo de 20 dias".
+TODO: CLIENTE CADASTRADO PARA REALIZAR COMPRA.
+
+TODO: VISITANTE PODE NAVEGAR PELO SISTEMA, VISUALIZAR PRODUTOS E INSERIR NO CARRINHO.
+
+- **RN010 - Política de trocas:** A troca somente será aceita com recibo fiscal no prazo de 20 dias.
 
 - **RN011 - Ofertas:** O sistema deve ter uma área destinada as promoções e ofertas da loja.
 
-- **RN012 - Visto Recentemente:** O sistema deve mostar as últimas consultas de produto do cliente.
+- **RN012 - Visto Recentemente:** O sistema deve mostar as últimas consultas de produtos realizadas pelo cliente.
 
-- **RN013 - Categorias:** O sistema deve categoprizar as mercadorias.
+- **RN013 - Categorias:** O sistema deve categorizar as produtos. TODO: O QUE É ISSO?
 
-### Requisitos funcionais
+TODO: REGRAS PARA ACESSO E USO DE RELATÓRIOS.
+
+TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
+
+# Requisitos funcionais
+
+TODO: REVISAR E RENUMERAR TODOS OS REQUISITOS.
 
 **Entradas:**
 - **R.F. 01 - Cadastro de usuários:** O sistema terá uma interface onde ocorrerá o cadastro de novos clientes.
   - **Dados necessários:** Nome completo, CPF, número de telefone, RG, e-mail, senha e login.
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 02 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessa-lo, caso possa, o direcionando para o a págian principal de seu perfil de acesso
+TODO: CADASTRO DE PRODUTOS
+- **RN002 - Gerenciamento de estoque:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de entrada e saída de produtos, atualização de preços, descrições e informações adicionais relacionadas aos produtos.
+- **R.F. 05 - Cadastro de produto:** O sistema terá uma interface onde poderá ser realizado o CRUD realacionado as informações da produto.
+  - **Dados necessários:** Nome, produtor, código, quantidade, descrição, categoria e valor.
+  - **Usuários:** Usuário tipo Gerente.
+
+- **R.F. 06 - Cadastro de categorias de produto:** O sistema terá uma interface onde poderá ser realizado o cadastro de categorias de produtos.
+  - **Dados necessários:** Nome e descrição.
+  - **Usuários:** Usuário tipo Gerente.
+
+**Processamento**
+- **R.F. 02 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo. Caso possa, o usuário é direcionado para a página principal de seu perfil de acesso.
   - **Dados necessários:** Login, senha, nível de permissão. 
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 03 - Entrada de produto:** O sistema terá uma interface onde poderá colocar as informações referentes à chagada de produtos.
-  - **Dados necessários:** Nome, quantidade.
+- **R.F. 03 - Entrada de produto:** O sistema terá uma interface onde poderá colocar as informações referentes à entrada de produtos.
+  - **Dados necessários:** código, quantidade.
   - **Usuários:** Usuário tipo Estoque.
 
 - **R.F. 04 - Saída de produto:** O sistema terá uma interface onde poderá colocar as informações referentes à saída de produtos.
   - **Dados necessários:** Nome, quantidade.
   - **Usuários:** Usuário tipo Estoque.
-  
-- **R.F. 05 - CRUD de mercadoria:** O sistema terá uma interface onde poderá ser realizado o CRUD realacionado as infromações da mercadoria.
-  - **Dados necessários:** Nome, produtor, código, quantidade, descrição, categoria e valor.
-  - **Usuários:** Usuário tipo Gerente.
 
-- **R.F. 06 - Categorias de mercadoria:** O sistema terá uma interface onde poderá ser realizado o CRUD de mercadorias.
-  - **Dados necessários:** Nome e descrição.
-  - **Usuários:** Usuário tipo Gerente.
-
-- **R.F. 07 - Adicionar mercadoria ao carrinho:** O sistema terá a função do cliente adicionar mercadorias ao seus carrinho pessoal de compras.
-  - **Dados necessários:** Infromações do produto e do cliente.
+- **R.F. 07 - Adicionar produto ao carrinho:** O sistema terá a função do cliente adicionar produtos ao seus carrinho pessoal de compras.
+  - **Dados necessários:** informações do produto e do cliente.
   - **Usuários:** Usuário tipo Cliente.
 
 **Saídas:**
-- **R.F. 08 - Reltaório de vendas:** Tem como finalidade devolver relatórios de vendas individuais de produto.
-  - **Dados necessários:** Relatório em fromato de tabela.
+- **RN003 - Relatórios:** O sistema deve gerar relatórios, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
+- **R.F. 08 - Relatório de vendas:** Tem como finalidade devolver relatórios de vendas individuais de produto.
+  - **Dados necessários:** Relatório em formato de tabela.
   - **Usuários:** Usuário tipo Gerente.
   
-- **R.F. 09 - Relatório quantidade de produto:** Tem como finalidade devolver uma relatário onde informará quais produtos estão acabando no estoque.
-  - **Dados necessários:** Relatório em fromato de tabela.
-  - **Usuários:** O sistema terá uma interface onde poderá colocar as informações referentes a chagada de produtos.
+- **R.F. 09 - Relatório quantidade de produto:** Tem como finalidade devolver um relatório contendo os produtos estão acabando no estoque.
+  - **Dados necessários:** Relatório em formato de tabela.
+  - **Usuários:** O sistema terá uma interface onde poderá colocar as informações referentes a chegada de produtos.
 
-- **R.F. 10 - Pesquisa de mercadoria:** O sistema deve permitir que o usuário filter/pesquise entre as mercadorias.
-  - **Dados necessários:** Nome da mercadoria ou categoria.
+- **R.F. 10 - Pesquisa de produto:** O sistema deve permitir que o usuário filtre/pesquise entre as produtos.
+  - **Dados necessários:** Nome da produto ou categoria.
   - **Usuários:** todos os níveis de usuário.
 
-### Requisitos não funcionais
+# Requisitos não funcionais
+
+TODO: RENUMERAR
 
 - **R.N.F. 01 - Atuação:** O sistema deve ser capaz de lidar com o número necessário de usuários sem queda brusca de desempenho.
 
-- **R.N.F. 02 - Portabilidade:** O sistema deve ser responsivo, sendo possível sua atulização em diversos dispositivos com alteração mínima
+- **R.N.F. 02 - Responsividade/Usabilidade:** O sistema deve ser responsivo, sendo possível sua utilização em diversos dispositivos com alteração mínima.
 
 - **R.N.F. 03 - Manutenção:** O sistema deve ser de fácil manter e atualizar.
 
@@ -164,20 +168,34 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 - **R.N.F. 05 - Níveis de segurança:** O software terá diferentes tipos de acesso para cada tipo de login, tendo as permissões ideais a função de cada um.
 
-- **R.N.F. 06 - Tecnologia Front-end:** Para a exibição o sistema desktop será desenvolvido no framework VUEJS.
+- **R.N.F. 06 - Tecnologia Front-end web:** Para a exibição o sistema web será desenvolvido no framework VUEJS, HTML5 e CSS3.
 
-- **R.N.F. 07 - Tecnologia Front-end:** Para a exibição o sistema mobile será desenvolvido no framework React-Native.
+- **R.N.F. 07 - Tecnologia Front-end mobile:** Para a exibição, o sistema mobile será desenvolvido no framework React-Native.
 
-- **R.N.F. 08- Tecnologia Back-end:** O software será desenvolvido no framework Django.
+- **R.N.F. 08- Tecnologia Back-end:** O software será desenvolvido em Python, utilizando o framework Django, com a API REST utilizando o Django REST Framework.
 
-- **R.N.F. 09 - Interoperabilidade:** O banco de dados será o Mysql.
+- **R.N.F. 09 - Interoperabilidade:** O banco de dados será o MySQL.
 
-- **R.N.F. 10 - Comfiabilidade:** O sistema deve ser confiável e atentar as necessidades do usuário.
+- **R.N.F. 10 - Comfiabilidade:** O sistema deve ser confiável e atender às necessidades do usuário.
 
 - **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
 
+----
+- **RNF004 - Disponibilidade:** O sistema deve atualizar em tempo real as informações do estoque, permitindo aos três níveis usuários visualizar a disponibilidade de produtos.
+
+<!-- - **RN005 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os funcionários, garantindo que apenas pessoas autorizadas possam realizar alterações no estoque e no caixa. -->
+
+- **RNF006 - Facilidade de uso:** O sistema deve ser intuitivo e de fácil utilização pelos funcionários da loja, minimizando a necessidade de treinamento adicional.
+
+- **RNF007 - Suporte técnico:** O sistema deve contar com suporte técnico para solucionar eventuais problemas que possam ocorrer no uso do software.
+
+- **RNF008 - Backup:** O sistema deve fazer backup regularmente para garantir a segurança dos dados do sistema.
+
+----
+
+
 ## Contato
-#### Equipe
+## Equipe
 
 * [Geovana Sophia Horodeski](https://github.com/horodeski) - geovana.horodeski06@gmail.com 
  
@@ -187,7 +205,7 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 </ul>
 
-#### Professores
+## Professores
 
 
 * [Alann Perini](https://github.com/AlannKPerini) - alann.perini@ifc.edu.br
