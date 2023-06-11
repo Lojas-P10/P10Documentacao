@@ -137,11 +137,15 @@ TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
 
 - **RN004 - Informações claras sobre o produto:**  O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
 
-- **RN005 - Política de trocas:** A troca somente será aceita com recibo fiscal no prazo de 20 dias.
+- **RN005 - Formas de pagamento:** O sistema deve fornecer para a loja online 3 formas de pagamento: Boleto bancário, cartão de crédito ou débito e PIX.
 
-- **RN006 - Ofertas:** O sistema deve ter uma área destinada às promoções e ofertas da loja.
+- **RN006 - Confirmação de pagamento:** A compra somente será efetivada após a confirmação do pagamento, assim podendo dar continuidade ao processo de embalagem e envio ou retirada do(s) produto(s).
 
-- **RN007 - Visto Recentemente:** O sistema deve mostrar as últimas consultas de produtos realizadas pelo cliente.
+- **RN007 - Política de trocas:** A troca somente será aceita com recibo fiscal no prazo de 20 dias.
+
+- **RN008 - Ofertas:** O sistema deve ter uma área destinada às promoções e ofertas da loja.
+
+- **RN009 - Visto Recentemente:** O sistema deve mostrar as últimas consultas de produtos realizadas pelo cliente.
 
 ## Requisitos funcionais
 
