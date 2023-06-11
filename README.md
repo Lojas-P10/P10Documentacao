@@ -84,12 +84,11 @@ Com esse aumento exponencial de compradores, o Dr. Eduardo reconheceu a necessid
 Em segundo plano, o Dr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar consultas de preço e compras. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda e quantidade de produtos em estoque em tempo real para todos os funcionários que possuem acesso ao sistema.
 
 ## Proposta
-
+ <!--
 TODO: MELHORAR ESSA PARTE, FALANDO EM MELHORIAS E NÃO EM CORREÇÃO DE ERROS.
 O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
 
 TODO: MELHORAR A PROPOSTA, DESCREVENDO MELHOR AS FUNCIONALIDADES, PRINCIPALMENTE O PROCESSO DE VENDA.
-
 O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 - **Cliente** - Terá acesso ao sistema, onde poderá navegar pelos produtos, visualizar detalhes, adicionar itens ao carrinho de compras e finalizar a compra.
@@ -98,30 +97,51 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 - **Gerente** - Poderá visualizar relatórios sobre vendas, lucros e receitas diárias, permitindo uma análise do desempenho do negócio ao longo do tempo.
  
- <!--
 - **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
--->
+
 - **RN001 - Controle de vendas:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
+-->
+
+O software visa melhorias no gerenciamento de estoque, facilitando as futuras consultas(quantidade de produto no estoque, preço do produto, etc), acesso a relatórios refentes às vendas. Deixando de maneira prática e ágil a manuntenção/atualização do estoque. Além de buscar facilitar o manuseio do estoque, o sistema terá uma interface voltada para compras online.
+
+Nessa interface voltada para vendas o visitante/cliente poderá navegar livremente pelo sistema, visualizar produtos e adicioná-lo no carrinho, porém, somente clientes cadastrados poderão efetuar a compra. O pagamento da compra poderá ser feito através de 3 formas: Boleto bancário, cartão de crédito ou débito e PIX.
+
+O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
+
+- **Cliente** - Terá acesso somente à interface de vendas (completa), podendo efetuar suas possíveis compras, navegar pelo sistema, visualizar produtos e postar avaliações sobre o produto.
+
+- **Estoque** - Terá acesso somente à interface voltada para consulta e manuntenção/atualização do estoque. Poderá atualizar o sistema numa futura entrada de produtos e consultar preço, quantidade, descrição, fornecedor(qualquer informação refente ao produto).
+
+- **Gerente** - Herdará as funcionalidades dos usuário tipo Estoque e terá acesso aos relatórios de vendas e comprovantes fiscais. O usuário tipo Gerente será o único usuário que poderá cadastrar novos produtos e editá-los(alteral o preço do produto, nome, etc.).
+
 
 ## Regras de negócio
 
-<!-- - **RN009 - Fornecer informações claras sobre o produto:** O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. -->
+<!-- 
+- **RN009 - Fornecer informações claras sobre o produto:** O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
 
 TODO: CLIENTE CADASTRADO PARA REALIZAR COMPRA.
 
 TODO: VISITANTE PODE NAVEGAR PELO SISTEMA, VISUALIZAR PRODUTOS E INSERIR NO CARRINHO.
 
-- **RN010 - Política de trocas:** A troca somente será aceita com recibo fiscal no prazo de 20 dias.
-
-- **RN011 - Ofertas:** O sistema deve ter uma área destinada as promoções e ofertas da loja.
-
-- **RN012 - Visto Recentemente:** O sistema deve mostar as últimas consultas de produtos realizadas pelo cliente.
-
-- **RN013 - Categorias:** O sistema deve categorizar as produtos. TODO: O QUE É ISSO?
-
 TODO: REGRAS PARA ACESSO E USO DE RELATÓRIOS.
 
 TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
+-->
+
+- **RN001 - Gerente:** Somente os usuários tipo Gerente terão acesso aos relatórios de vendas que serão fornecidos pelo sistema.
+
+- **RN002 - Visitante:** Visitantes da interface de compras poderão navegar pelo sistema, visualizar produtos e adicionalos ao carrinho, porém, não poderão efetuar a compra nem postar avaliações sobre o produto. 
+
+- **RN003 - Cliente:** Os clientes cadastrado além de poder navegar pelo sistema, visualizar produtos e adicionalos ao carrinho, poderão efetuar compras e postar avaliações sobre o produto. 
+
+- **RN004 - Informações claras sobre o produto::**  O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
+
+- **RN005 - Política de trocas:** A troca somente será aceita com recibo fiscal no prazo de 20 dias.
+
+- **RN006 - Ofertas:** O sistema deve ter uma área destinada as promoções e ofertas da loja.
+
+- **RN007 - Visto Recentemente:** O sistema deve mostar as últimas consultas de produtos realizadas pelo cliente.
 
 ## Requisitos funcionais
 
@@ -174,8 +194,9 @@ TODO: CADASTRO DE PRODUTOS
   - **Usuários:** todos os níveis de usuário.
 
 ## Requisitos não funcionais
-
+<!-- 
 TODO: RENUMERAR
+-->
 
 - **R.N.F. 01 - Atuação:** O sistema deve ser capaz de lidar com o número necessário de usuários sem queda brusca de desempenho.
 
@@ -199,16 +220,15 @@ TODO: RENUMERAR
 
 - **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
 
-----
-- **RNF004 - Disponibilidade:** O sistema deve atualizar em tempo real as informações do estoque, permitindo aos três níveis usuários visualizar a disponibilidade de produtos.
+- **R.N.F. 12 - Disponibilidade:** O sistema deve atualizar em tempo real as informações do estoque, permitindo aos três níveis usuários visualizar a disponibilidade de produtos.
 
-<!-- - **RN005 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os funcionários, garantindo que apenas pessoas autorizadas possam realizar alterações no estoque e no caixa. -->
+- **R.N.F. 13 - Acesso restrito:** O sistema deve permitir a configuração de perfis de acesso restrito para os funcionários, garantindo que apenas pessoas autorizadas possam realizar alterações no estoque e no caixa.
 
-- **RNF006 - Facilidade de uso:** O sistema deve ser intuitivo e de fácil utilização pelos funcionários da loja, minimizando a necessidade de treinamento adicional.
+- **R.N.F. 14 - Facilidade de uso:** O sistema deve ser intuitivo e de fácil utilização pelos funcionários da loja, minimizando a necessidade de treinamento adicional.
 
-- **RNF007 - Suporte técnico:** O sistema deve contar com suporte técnico para solucionar eventuais problemas que possam ocorrer no uso do software.
+- **R.N.F. 15 - Suporte técnico:** O sistema deve contar com suporte técnico para solucionar eventuais problemas que possam ocorrer no uso do software.
 
-- **RNF008 - Backup:** O sistema deve fazer backup regularmente para garantir a segurança dos dados do sistema.
+- **R.N.F. 16 - Backup:** O sistema deve fazer backup regularmente para garantir a segurança dos dados do sistema.
 
 <hr />
 
