@@ -148,13 +148,8 @@ TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
 - **RN009 - Visto Recentemente:** O sistema deve mostrar as últimas consultas de produtos realizadas pelo cliente.
 
 ## Requisitos funcionais
-
+<!-- 
 TODO: REVISAR E RENUMERAR TODOS OS REQUISITOS.
-
-**Entradas:**
-- **R.F. 01 - Cadastro de usuários:** O sistema terá uma interface onde ocorrerá o cadastro de novos clientes.
-  - **Dados necessários:** Nome completo, CPF, número de telefone, RG, e-mail, senha e login.
-  - **Usuários:** todos os níveis de usuário.
 
 TODO: CADASTRO DE PRODUTOS
 - **RN002 - Gerenciamento de estoque:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de entrada e saída de produtos, atualização de preços, descrições e informações adicionais relacionadas aos produtos.
@@ -162,40 +157,56 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** Nome, produtor, código, quantidade, descrição, categoria e valor.
   - **Usuários:** Usuário tipo Gerente.
 
-- **R.F. 06 - Cadastro de categorias de produto:** O sistema terá uma interface onde poderá ser realizado o cadastro de categorias de produtos.
-  - **Dados necessários:** Nome e descrição.
+
+  - **RN003 - Relatórios:** O sistema deve gerar relatórios, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
+
+
+-->
+
+**Entradas:**
+
+- **R.F. 01 - Cadastro de usuários:** O sistema terá uma interface onde ocorrerá o cadastro de novos clientes.
+  - **Dados necessários:** Nome completo, CPF, número de telefone, RG, e-mail, senha e login.
+  - **Usuários:** todos os níveis de usuário.
+
+- **R.F. 02 - Cadastro de produtos:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de novos produtos, atualização e exclusão de produtos(CRUD).
+  - **Dados necessários:** Código, nome do produto, fornecedor, descrição, categoria, quantidade no estoque e valor.
+  - **Usuários:** Usuário tipo Gerente.
+
+- **R.F. 03 - Cadastro de categorias:** O sistema deve permitir a criação de categorias, visando facilitar a navegabilidade entre os produtos.
+  - **Dados necessários:** Nome da categoria e descrição da categoria.
   - **Usuários:** Usuário tipo Gerente.
 
 **Processamento**
-- **R.F. 02 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo. Caso possa, o usuário é direcionado para a página principal de seu perfil de acesso.
+- **R.F. 04 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo. Caso possa, o usuário é direcionado para a página principal de seu perfil de acesso.
   - **Dados necessários:** Login, senha, nível de permissão. 
-  - **Usuários:** todos os níveis de usuário.
+  - **Usuários:** Todos os níveis de usuário.
 
-- **R.F. 03 - Entrada de produto:** O sistema terá uma interface onde poderá colocar as informações referentes à entrada de produtos.
+- **R.F. 05 - Entrada de produto:** O usuário tipo Estoque e Gerente terão acesso a está função que permitirá a atualização da quantidade de uma determinada mercadoria 
   - **Dados necessários:** código, quantidade.
-  - **Usuários:** Usuário tipo Estoque.
+  - **Usuários:** Usuário tipo Estoque e Gerente 
 
-- **R.F. 04 - Saída de produto:** O sistema terá uma interface onde poderá colocar as informações referentes à saída de produtos.
-  - **Dados necessários:** Nome, quantidade.
-  - **Usuários:** Usuário tipo Estoque.
-
-- **R.F. 07 - Adicionar produto ao carrinho:** O sistema terá a função do cliente adicionar produtos ao seus carrinho pessoal de compras.
-  - **Dados necessários:** informações do produto e do cliente.
+- **R.F. 06 - Adicionar produto ao carrinho:** O sistema permitira que o usuário Cliente adicione produtos em seu carrinho de compra.
+  - **Dados necessários:** informações do produto(Código, quantidade, etc) e do cliente(Login, nome, etc).
   - **Usuários:** Usuário tipo Cliente.
 
+- **R.F. 07 - Autenticação de pagamento:** Tem como finalidade autenticar e autorizar a embalagem e envio/retirada do(s) produto(s) comprado(s). Essa autenticação será feita através da confirmação do recebimento do pagamento.
+  - **Dados necessários:** Informações sobre a compra(Código da compra, código do cliente) e comprovante fiscal.
+  - **Usuários:** Todos os níveis de usuário.
+
 **Saídas:**
-- **RN003 - Relatórios:** O sistema deve gerar relatórios, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
-- **R.F. 08 - Relatório de vendas:** Tem como finalidade devolver relatórios de vendas individuais de produto.
+
+- **R.F. 08 - Relatório de vendas:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quantos pordutos foram vendidos, o valor total arrecadado com as vendas, quantidade de vendas feitas na loja física/virutal e taxa de crecimento de vendas. Essas infromações serão fornecidas por produto e ao final no geral.
   - **Dados necessários:** Relatório em formato de tabela.
   - **Usuários:** Usuário tipo Gerente.
   
-- **R.F. 09 - Relatório quantidade de produto:** Tem como finalidade devolver um relatório contendo os produtos estão acabando no estoque.
+- **R.F. 09 - Relatório quantidade de produto:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quais são os produtos que estão acabando. Em que, os produtos que possuem 70 ou menos no estoque estarão vermelho, produtos com mais de 70, menor ou igual a 200 em amarelo e produtos com mais de 200 em verde.
   - **Dados necessários:** Relatório em formato de tabela.
-  - **Usuários:** O sistema terá uma interface onde poderá colocar as informações referentes a chegada de produtos.
+  - **Usuários:** Usuário tipo Gerente.
 
 - **R.F. 10 - Pesquisa de produto:** O sistema deve permitir que o usuário filtre/pesquise entre as produtos.
   - **Dados necessários:** Nome da produto ou categoria.
-  - **Usuários:** todos os níveis de usuário.
+  - **Usuários:** Todos os níveis de usuário.
 
 ## Requisitos não funcionais
 <!-- 
