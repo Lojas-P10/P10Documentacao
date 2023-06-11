@@ -169,6 +169,10 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** Nome completo, CPF, número de telefone, RG, e-mail, senha e login.
   - **Usuários:** todos os níveis de usuário.
 
+- **R.F. 02 - Cadastro de produtos:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de novos produtos, atualização e exclusão de produtos(CRUD).
+  - **Dados necessários:** Código, nome do produto, fornecedor, descrição, categoria, quantidade no estoque e valor.
+  - **Usuários:** Usuário tipo Gerente.
+
 - **R.F. 03 - Cadastro de categorias:** O sistema deve permitir a criação de categorias, visando facilitar a navegabilidade entre os produtos.
   - **Dados necessários:** Nome da categoria e descrição da categoria.
   - **Usuários:** Usuário tipo Gerente.
