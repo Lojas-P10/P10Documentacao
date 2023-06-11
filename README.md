@@ -169,10 +169,6 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** Nome completo, CPF, número de telefone, RG, e-mail, senha e login.
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 02 - Cadastro de produtos:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de novos produtos, atualização e exclusão de produtos(CRUD).
-  - **Dados necessários:** Código, nome do produto, fornecedor, descrição, categoria, quantidade no estoque e valor.
-  - **Usuários:** Usuário tipo Gerente.
-
 - **R.F. 03 - Cadastro de categorias:** O sistema deve permitir a criação de categorias, visando facilitar a navegabilidade entre os produtos.
   - **Dados necessários:** Nome da categoria e descrição da categoria.
   - **Usuários:** Usuário tipo Gerente.
@@ -186,7 +182,7 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** código, quantidade.
   - **Usuários:** Usuário tipo Estoque e Gerente 
 
-- **R.F. 06 - Adicionar produto ao carrinho:** O sistema permitira que o usuário Cliente adicione produtos em seu carrinho de compra.
+- **R.F. 06 - Adicionar produto ao carrinho:** O sistema permitirá que o usuário Cliente adicione produtos em seu carrinho de compra.
   - **Dados necessários:** informações do produto(Código, quantidade, etc) e do cliente(Login, nome, etc).
   - **Usuários:** Usuário tipo Cliente.
 
@@ -196,7 +192,7 @@ TODO: CADASTRO DE PRODUTOS
 
 **Saídas:**
 
-- **R.F. 08 - Relatório de vendas:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quantos pordutos foram vendidos, o valor total arrecadado com as vendas, quantidade de vendas feitas na loja física/virutal e taxa de crecimento de vendas. Essas infromações serão fornecidas por produto e ao final no geral.
+- **R.F. 08 - Relatório de vendas:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quantos produtos foram vendidos, o valor total arrecadado com as vendas, quantidade de vendas feitas na loja física/virtual e taxa de crescimento de vendas. Essas informações serão fornecidas por produto e ao final no geral.
   - **Dados necessários:** Relatório em formato de tabela.
   - **Usuários:** Usuário tipo Gerente.
   
@@ -205,7 +201,7 @@ TODO: CADASTRO DE PRODUTOS
   - **Usuários:** Usuário tipo Gerente.
 
 - **R.F. 10 - Pesquisa de produto:** O sistema deve permitir que o usuário filtre/pesquise entre as produtos.
-  - **Dados necessários:** Nome da produto ou categoria.
+  - **Dados necessários:** Nome do produto ou categoria.
   - **Usuários:** Todos os níveis de usuário.
 
 ## Requisitos não funcionais
