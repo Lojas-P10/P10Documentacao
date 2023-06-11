@@ -102,17 +102,17 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 - **RN001 - Controle de vendas:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
 -->
 
-O software visa melhorias no gerenciamento de estoque, facilitando as futuras consultas(quantidade de produto no estoque, preço do produto, etc), acesso a relatórios refentes às vendas. Deixando de maneira prática e ágil a manuntenção/atualização do estoque. Além de buscar facilitar o manuseio do estoque, o sistema terá uma interface voltada para compras online.
+O software visa melhorias no gerenciamento de estoque, facilitando as futuras consultas(quantidade de produto no estoque, preço do produto, etc), acesso a relatórios referentes às vendas. Deixando de maneira prática e ágil a manuntenção/atualização do estoque. Além de buscar facilitar o manuseio do estoque, o sistema terá uma interface voltada para compras online.
 
-Nessa interface voltada para vendas o visitante/cliente poderá navegar livremente pelo sistema, visualizar produtos e adicioná-lo no carrinho, porém, somente clientes cadastrados poderão efetuar a compra. O pagamento da compra poderá ser feito através de 3 formas: Boleto bancário, cartão de crédito ou débito e PIX.
+Nessa interface voltada para vendas o visitante/cliente poderá navegar livremente pelo sistema, visualizar produtos e adicioná-los no carrinho, porém, somente clientes cadastrados poderão efetuar a compra. O pagamento da compra poderá ser feito através de 3 formas: Boleto bancário, cartão de crédito ou débito e PIX.
 
 O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 - **Cliente** - Terá acesso somente à interface de vendas (completa), podendo efetuar suas possíveis compras, navegar pelo sistema, visualizar produtos e postar avaliações sobre o produto.
 
-- **Estoque** - Terá acesso somente à interface voltada para consulta e manuntenção/atualização do estoque. Poderá atualizar o sistema numa futura entrada de produtos e consultar preço, quantidade, descrição, fornecedor(qualquer informação refente ao produto).
+- **Estoque** - Terá acesso somente à interface voltada para consulta e manuntenção/atualização do estoque. Poderá atualizar o sistema numa futura entrada de produtos e consultar preço, quantidade, descrição, fornecedor(qualquer informação referente ao produto).
 
-- **Gerente** - Herdará as funcionalidades dos usuário tipo Estoque e terá acesso aos relatórios de vendas e comprovantes fiscais. O usuário tipo Gerente será o único usuário que poderá cadastrar novos produtos e editá-los(alteral o preço do produto, nome, etc.).
+- **Gerente** - Herdará as funcionalidades do usuário tipo Estoque e terá acesso aos relatórios de vendas e comprovantes fiscais. O usuário tipo Gerente será o único usuário que poderá cadastrar novos produtos e editá-los(alterar o preço do produto, nome, etc.).
 
 
 ## Regras de negócio
@@ -131,17 +131,17 @@ TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
 
 - **RN001 - Gerente:** Somente os usuários tipo Gerente terão acesso aos relatórios de vendas que serão fornecidos pelo sistema.
 
-- **RN002 - Visitante:** Visitantes da interface de compras poderão navegar pelo sistema, visualizar produtos e adicionalos ao carrinho, porém, não poderão efetuar a compra nem postar avaliações sobre o produto. 
+- **RN002 - Visitante:** Visitantes da interface de compras poderão navegar pelo sistema, visualizar produtos e adicioná-los ao carrinho, porém, não poderão efetuar a compra nem postar avaliações sobre o produto. 
 
-- **RN003 - Cliente:** Os clientes cadastrado além de poder navegar pelo sistema, visualizar produtos e adicionalos ao carrinho, poderão efetuar compras e postar avaliações sobre o produto. 
+- **RN003 - Cliente:** Os clientes cadastrados  além de poder navegar pelo sistema, visualizar produtos e adicioná-los ao carrinho, poderão efetuar compras e postar avaliações sobre o produto. 
 
-- **RN004 - Informações claras sobre o produto::**  O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
+- **RN004 - Informações claras sobre o produto:**  O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
 
 - **RN005 - Política de trocas:** A troca somente será aceita com recibo fiscal no prazo de 20 dias.
 
-- **RN006 - Ofertas:** O sistema deve ter uma área destinada as promoções e ofertas da loja.
+- **RN006 - Ofertas:** O sistema deve ter uma área destinada às promoções e ofertas da loja.
 
-- **RN007 - Visto Recentemente:** O sistema deve mostar as últimas consultas de produtos realizadas pelo cliente.
+- **RN007 - Visto Recentemente:** O sistema deve mostrar as últimas consultas de produtos realizadas pelo cliente.
 
 ## Requisitos funcionais
 
@@ -202,7 +202,7 @@ TODO: RENUMERAR
 
 - **R.N.F. 02 - Responsividade/Usabilidade:** O sistema deve ser responsivo, sendo possível sua utilização em diversos dispositivos com alteração mínima.
 
-- **R.N.F. 03 - Manutenção:** O sistema deve ser de fácil manter e atualizar.
+- **R.N.F. 03 - Manutenção:** O sistema deve ser de fácil manutenção e atualização.
 
 - **R.N.F. 04 - Segurança:** O sistema deve ser protegido contra acesso não autorizado.
 
@@ -216,7 +216,7 @@ TODO: RENUMERAR
 
 - **R.N.F. 09 - Interoperabilidade:** O banco de dados será o MySQL.
 
-- **R.N.F. 10 - Comfiabilidade:** O sistema deve ser confiável e atender às necessidades do usuário.
+- **R.N.F. 10 - Confiabilidade:** O sistema deve ser confiável e atender às necessidades do usuário.
 
 - **R.N.F. 11 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
 
