@@ -27,7 +27,6 @@
   </p>
 </div>
 
-## Contato
 ## Equipe
 
 * [Geovana Sophia Horodeski](https://github.com/horodeski) - geovana.horodeski06@gmail.com 
