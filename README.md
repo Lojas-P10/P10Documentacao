@@ -101,15 +101,15 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 - **RN001 - Controle de vendas:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
 -->
 
-O software visa melhorias no gerenciamento de estoque, facilitando as futuras consultas(quantidade de produto no estoque, preço do produto, etc), acesso a relatórios referentes às vendas. Deixando de maneira prática e ágil a manuntenção/atualização do estoque. Além de buscar facilitar o manuseio do estoque, o sistema terá uma interface voltada para compras online.
+O software visa melhorias no gerenciamento de estoque, facilitando as futuras consultas (quantidade de produto no estoque, preço do produto, etc.), acesso a relatórios referentes às vendas, deixando de maneira prática e ágil a atualização do estoque. 
 
-Nessa interface voltada para vendas o visitante/cliente poderá navegar livremente pelo sistema, visualizar produtos e adicioná-los no carrinho, porém, somente clientes cadastrados poderão efetuar a compra. O pagamento da compra poderá ser feito através de 3 formas: Boleto bancário, cartão de crédito ou débito e PIX.
+Além de buscar facilitar o manuseio do estoque, o sistema terá uma interface voltada para compras online. Nessa interface voltada para vendas, o visitante/cliente poderá navegar livremente pelo sistema, visualizar produtos e adicioná-los no carrinho, porém, somente clientes cadastrados poderão efetuar a compra. O pagamento da compra poderá ser feito através de 4 formas: boleto bancário, cartão de crédito, cartão de débito e PIX.
 
 O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 - **Cliente** - Terá acesso somente à interface de vendas (completa), podendo efetuar suas possíveis compras, navegar pelo sistema, visualizar produtos e postar avaliações sobre o produto.
 
-- **Estoque** - Terá acesso somente à interface voltada para consulta e manuntenção/atualização do estoque. Poderá atualizar o sistema numa futura entrada de produtos e consultar preço, quantidade, descrição, fornecedor(qualquer informação referente ao produto).
+- **Estoque** - Terá acesso somente à interface voltada para consulta e atualização do estoque. Poderá atualizar o sistema numa futura entrada de produtos e consultar preço, quantidade, descrição, fornecedor (qualquer informação referente ao produto).
 
 - **Gerente** - Herdará as funcionalidades do usuário tipo Estoque e terá acesso aos relatórios de vendas e comprovantes fiscais. O usuário tipo Gerente será o único usuário que poderá cadastrar novos produtos e editá-los(alterar o preço do produto, nome, etc.).
 
@@ -132,11 +132,11 @@ TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
 
 - **RN002 - Visitante:** Visitantes da interface de compras poderão navegar pelo sistema, visualizar produtos e adicioná-los ao carrinho, porém, não poderão efetuar a compra nem postar avaliações sobre o produto. 
 
-- **RN003 - Cliente:** Os clientes cadastrados  além de poder navegar pelo sistema, visualizar produtos e adicioná-los ao carrinho, poderão efetuar compras e postar avaliações sobre o produto. 
+- **RN003 - Cliente:** Os clientes cadastrados, além de poderem navegar pelo sistema, visualizar produtos e adicioná-los ao carrinho, poderão efetuar compras e postar avaliações sobre o produto. 
 
-- **RN004 - Informações claras sobre o produto:**  O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
-
-- **RN005 - Formas de pagamento:** O sistema deve fornecer para a loja online 3 formas de pagamento: Boleto bancário, cartão de crédito ou débito e PIX.
+- **RN004 - Informações sobre o produto:**  O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, data de entrega ou retirada).
+- 
+- **RN005 - Formas de pagamento:** O sistema deve fornecer para a loja online 4 formas de pagamento: Boleto bancário, cartão de crédito, cartão de débito e PIX.
 
 - **RN006 - Confirmação de pagamento:** A compra somente será efetivada após a confirmação do pagamento, assim podendo dar continuidade ao processo de embalagem e envio ou retirada do(s) produto(s).
 
@@ -168,7 +168,7 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** Nome completo, CPF, número de telefone, RG, e-mail, senha e login.
   - **Usuários:** todos os níveis de usuário.
 
-- **R.F. 02 - Cadastro de produtos:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de novos produtos, atualização e exclusão de produtos(CRUD).
+- **R.F. 02 - Cadastro de produtos:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de novos produtos, atualização e exclusão de produtos.
   - **Dados necessários:** Código, nome do produto, fornecedor, descrição, categoria, quantidade no estoque e valor.
   - **Usuários:** Usuário tipo Gerente.
 
@@ -176,12 +176,14 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** Nome da categoria e descrição da categoria.
   - **Usuários:** Usuário tipo Gerente.
 
+TODO: PENSAR SE DEVE TER UM CADASTRO DE FORNECEDOR.
+
 **Processamento**
 - **R.F. 04 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo. Caso possa, o usuário é direcionado para a página principal de seu perfil de acesso.
   - **Dados necessários:** Login, senha, nível de permissão. 
   - **Usuários:** Todos os níveis de usuário.
 
-- **R.F. 05 - Entrada de produto:** O usuário tipo Estoque e Gerente terão acesso a está função que permitirá a atualização da quantidade de uma determinada mercadoria 
+- **R.F. 05 - Entrada de produto:** O usuário tipo Estoque e Gerente terão acesso a está função que permitirá a atualização da quantidade de uma determinada mercadoria.
   - **Dados necessários:** código, quantidade.
   - **Usuários:** Usuário tipo Estoque e Gerente 
 
@@ -189,18 +191,18 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** informações do produto(Código, quantidade, etc) e do cliente(Login, nome, etc).
   - **Usuários:** Usuário tipo Cliente.
 
-- **R.F. 07 - Autenticação de pagamento:** Tem como finalidade autenticar e autorizar a embalagem e envio/retirada do(s) produto(s) comprado(s). Essa autenticação será feita através da confirmação do recebimento do pagamento.
-  - **Dados necessários:** Informações sobre a compra(Código da compra, código do cliente) e comprovante fiscal.
+- **R.F. 07 - Confirmação de expedição:** Tem como finalidade confirmar o pagamento e autorizar a embalagem e envio/retirada do(s) produto(s) comprado(s). 
+  - **Dados necessários:** Informações sobre a compra (Código da compra, código do cliente) e comprovante fiscal.
   - **Usuários:** Todos os níveis de usuário.
 
 **Saídas:**
 
 - **R.F. 08 - Relatório de vendas:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quantos produtos foram vendidos, o valor total arrecadado com as vendas, quantidade de vendas feitas na loja física/virtual e taxa de crescimento de vendas. Essas informações serão fornecidas por produto e ao final no geral.
-  - **Dados necessários:** Relatório em formato de tabela.
+  - **Dados necessários:** Período (data inicial e final).
   - **Usuários:** Usuário tipo Gerente.
   
-- **R.F. 09 - Relatório quantidade de produto:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quais são os produtos que estão acabando. Em que, os produtos que possuem 70 ou menos no estoque estarão vermelho, produtos com mais de 70, menor ou igual a 200 em amarelo e produtos com mais de 200 em verde.
-  - **Dados necessários:** Relatório em formato de tabela.
+- **R.F. 09 - Relatório de produto:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quais são os produtos que estão acabando. Em que, os produtos que possuem 70 ou menos no estoque estarão vermelho, produtos com mais de 70, menor ou igual a 200 em amarelo e produtos com mais de 200 em verde.
+  - **Dados necessários:** Período (data inicial e final).
   - **Usuários:** Usuário tipo Gerente.
 
 - **R.F. 10 - Pesquisa de produto:** O sistema deve permitir que o usuário filtre/pesquise entre as produtos.
