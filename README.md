@@ -83,23 +83,6 @@ Com esse aumento exponencial de compradores, o Dr. Eduardo reconheceu a necessid
 Em segundo plano, o Dr. Eduardo quer aumentar a visibilidade e acesso à loja, criando uma loja online. Na loja online,  os usuários poderão cadastrar-se, efetuar consultas de preço e compras. O software auxiliaria a manter o estoque atualizado, evitando que hajam futuros problemas relacionados com a quantidade de produtos no estoque. Isso seria realizado através de um relatório mostrando a demanda e quantidade de produtos em estoque em tempo real para todos os funcionários que possuem acesso ao sistema.
 
 ## Proposta
- <!--
-TODO: MELHORAR ESSA PARTE, FALANDO EM MELHORIAS E NÃO EM CORREÇÃO DE ERROS.
-O software tem como alvo principal corrigir e auxiliar a falta de gerenciamento do estoque e foco secundário na gestão de vendas da loja.
-
-TODO: MELHORAR A PROPOSTA, DESCREVENDO MELHOR AS FUNCIONALIDADES, PRINCIPALMENTE O PROCESSO DE VENDA.
-O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
-
-- **Cliente** - Terá acesso ao sistema, onde poderá navegar pelos produtos, visualizar detalhes, adicionar itens ao carrinho de compras e finalizar a compra.
-
-- **Estoque** - Terá acesso ao monitoramento do estoque, onde poderá visualizar e registrar produtos.
-
-- **Gerente** - Poderá visualizar relatórios sobre vendas, lucros e receitas diárias, permitindo uma análise do desempenho do negócio ao longo do tempo.
- 
-- **Gerente** terá acesso à relatórios de vendas, com inoformações de quais que estão tendo maior , quais precisam ser , relatório de faturamento e vendase valor individual de cada produto. Terá acesso aos dois níveis anteriores para monitoramento.
-
-- **RN001 - Controle de vendas:** O sistema deve permitir o registro de todas as transações de venda, incluindo a forma de pagamento e a emissão de notas fiscais.
--->
 
 O software visa melhorias no gerenciamento de estoque, facilitando as futuras consultas (quantidade de produto no estoque, preço do produto, etc.), acesso a relatórios referentes às vendas, deixando de maneira prática e ágil a atualização do estoque. 
 
@@ -115,18 +98,6 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 
 ## Regras de negócio
-
-<!-- 
-- **RN009 - Fornecer informações claras sobre o produto:** O sistema deve fornecer as informações relacionadas ao pedido do cliente (preço, quantidade, entrega/retirada) de forma clara ao consumidor. 
-
-TODO: CLIENTE CADASTRADO PARA REALIZAR COMPRA.
-
-TODO: VISITANTE PODE NAVEGAR PELO SISTEMA, VISUALIZAR PRODUTOS E INSERIR NO CARRINHO.
-
-TODO: REGRAS PARA ACESSO E USO DE RELATÓRIOS.
-
-TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
--->
 
 - **RN001 - Gerente:** Somente os usuários tipo Gerente terão acesso aos relatórios de vendas que serão fornecidos pelo sistema.
 
@@ -147,20 +118,6 @@ TODO: REVISAR SE FALTAM OUTRAS REGRAS DE NEGÓCIO.
 - **RN009 - Visto Recentemente:** O sistema deve mostrar as últimas consultas de produtos realizadas pelo cliente.
 
 ## Requisitos funcionais
-<!-- 
-TODO: REVISAR E RENUMERAR TODOS OS REQUISITOS.
-
-TODO: CADASTRO DE PRODUTOS
-- **RN002 - Gerenciamento de estoque:** O sistema deve permitir o controle do estoque da loja, possibilitando o registro de entrada e saída de produtos, atualização de preços, descrições e informações adicionais relacionadas aos produtos.
-- **R.F. 05 - Cadastro de produto:** O sistema terá uma interface onde poderá ser realizado o CRUD realacionado as informações da produto.
-  - **Dados necessários:** Nome, produtor, código, quantidade, descrição, categoria e valor.
-  - **Usuários:** Usuário tipo Gerente.
-
-
-  - **RN003 - Relatórios:** O sistema deve gerar relatórios, apresentando informações detalhadas sobre o estoque, vendas, compras e outras informações relevantes para o gerenciamento da loja.
-
-
--->
 
 **Entradas:**
 
@@ -176,43 +133,42 @@ TODO: CADASTRO DE PRODUTOS
   - **Dados necessários:** Nome da categoria e descrição da categoria.
   - **Usuários:** Usuário tipo Gerente.
 
-TODO: PENSAR SE DEVE TER UM CADASTRO DE FORNECEDOR.
+- **R.F. 04 - Cadastro de fornecedor:** O sistema deve permitir o cadastro de fornecedores de produtos.
+  - **Dados necessários:** Código, nome do fornecedor, descrição, email, telefone.
+  - **usuários:** Usuário tipo Gerente.
 
 **Processamento**
-- **R.F. 04 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo. Caso possa, o usuário é direcionado para a página principal de seu perfil de acesso.
+- **R.F. 05 - Autenticação de usuário:** Tem como funcionalidade autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo. Caso possa, o usuário é direcionado para a página principal de seu perfil de acesso.
   - **Dados necessários:** Login, senha, nível de permissão. 
   - **Usuários:** Todos os níveis de usuário.
 
-- **R.F. 05 - Entrada de produto:** O usuário tipo Estoque e Gerente terão acesso a está função que permitirá a atualização da quantidade de uma determinada mercadoria.
+- **R.F. 06 - Entrada de produto:** O usuário tipo Estoque e Gerente terão acesso a está função que permitirá a atualização da quantidade de uma determinada mercadoria.
   - **Dados necessários:** código, quantidade.
   - **Usuários:** Usuário tipo Estoque e Gerente 
 
-- **R.F. 06 - Adicionar produto ao carrinho:** O sistema permitirá que o usuário Cliente adicione produtos em seu carrinho de compra.
+- **R.F. 07 - Adicionar produto ao carrinho:** O sistema permitirá que o usuário Cliente adicione produtos em seu carrinho de compra.
   - **Dados necessários:** informações do produto(Código, quantidade, etc) e do cliente(Login, nome, etc).
   - **Usuários:** Usuário tipo Cliente.
 
-- **R.F. 07 - Confirmação de expedição:** Tem como finalidade confirmar o pagamento e autorizar a embalagem e envio/retirada do(s) produto(s) comprado(s). 
+- **R.F. 08 - Confirmação de expedição:** Tem como finalidade confirmar o pagamento e autorizar a embalagem e envio/retirada do(s) produto(s) comprado(s). 
   - **Dados necessários:** Informações sobre a compra (Código da compra, código do cliente) e comprovante fiscal.
   - **Usuários:** Todos os níveis de usuário.
 
 **Saídas:**
 
-- **R.F. 08 - Relatório de vendas:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quantos produtos foram vendidos, o valor total arrecadado com as vendas, quantidade de vendas feitas na loja física/virtual e taxa de crescimento de vendas. Essas informações serão fornecidas por produto e ao final no geral.
+- **R.F. 09 - Relatório de vendas:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quantos produtos foram vendidos, o valor total arrecadado com as vendas, quantidade de vendas feitas na loja física/virtual e taxa de crescimento de vendas. Essas informações serão fornecidas por produto e ao final no geral.
   - **Dados necessários:** Período (data inicial e final).
   - **Usuários:** Usuário tipo Gerente.
   
-- **R.F. 09 - Relatório de produto:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quais são os produtos que estão acabando. Em que, os produtos que possuem 70 ou menos no estoque estarão vermelho, produtos com mais de 70, menor ou igual a 200 em amarelo e produtos com mais de 200 em verde.
+- **R.F. 10 - Relatório de produto:** Entregará ao usuário tipo Gerente um tabela(relatório) informando quais são os produtos que estão acabando. Em que, os produtos que possuem 70 ou menos no estoque estarão vermelho, produtos com mais de 70, menor ou igual a 200 em amarelo e produtos com mais de 200 em verde.
   - **Dados necessários:** Período (data inicial e final).
   - **Usuários:** Usuário tipo Gerente.
 
-- **R.F. 10 - Pesquisa de produto:** O sistema deve permitir que o usuário filtre/pesquise entre as produtos.
+- **R.F. 11 - Pesquisa de produto:** O sistema deve permitir que o usuário filtre/pesquise entre as produtos.
   - **Dados necessários:** Nome do produto ou categoria.
   - **Usuários:** Todos os níveis de usuário.
 
 ## Requisitos não funcionais
-<!-- 
-TODO: RENUMERAR
--->
 
 - **R.N.F. 01 - Atuação:** O sistema deve ser capaz de lidar com o número necessário de usuários sem queda brusca de desempenho.
 
