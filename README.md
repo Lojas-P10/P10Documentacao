@@ -20,10 +20,11 @@
 
   <p align="center">
     <p>Projeto desenvolvido para a matéria de Projeto Integrador em 2023</p>
-    <a href="https://github.com/MarceloHarbs/P10-Documentcao"><strong>Documentação »</strong></a>
+    <a href="https://github.com/MarceloHarbs/P10Documentacao"><strong>Documentação »</strong></a>
     <a href="https://github.com/horodeski/P10FrontEnd"><strong>FrontEnd »</strong></a>
     <a href="https://github.com/horodeski/P10Mobile"><strong>Mobile »</strong></a>
-    <a href="github.com/marcoandre/pi-backend"><strong>BackEnd »</strong></a>
+    <a href="https://github.com/eugreg/P10BackEnd"><strong>BackEnd »</strong></a>
+    <a href="https://github.com/horodeski/P10Administracao"><strong>Administração »</strong></a>
   </p>
 </div>
 
