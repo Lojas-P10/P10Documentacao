@@ -205,12 +205,3 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 <hr />
 
-<div align="center">
-  
-  [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
-  [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-  
-  
-</div>
-
-
