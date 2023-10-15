@@ -205,5 +205,8 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 
 <hr />
 
+## Diagrama caso de uso
+![Alt text](p10casodeuso.png)
+
 ## Modelo entidade relacionamento 
 ![Alt text](image.png)
