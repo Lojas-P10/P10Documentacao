@@ -206,6 +206,7 @@ O sistema terá 3 níveis de usuário: Cliente, Estoque e Gerente.
 <hr />
 
 ## Diagrama caso de uso
+
 ![Alt text](<Diagrama sem nome.drawio.png>)
 
 ![Alt text](<Diagrama sem nome.drawio (1).png>)
